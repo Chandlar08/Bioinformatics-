@@ -1,0 +1,238 @@
+
+R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.79 (8160) x86_64-apple-darwin17.0]
+
+[Workspace restored from /Users/chandlar/.RData]
+[History restored from /Users/chandlar/.Rapp.history]
+
+> install.packages("ape")
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘Rcpp’, ‘digest’
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/Rcpp_1.0.10.tgz'
+Content type 'application/x-gzip' length 3240791 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/digest_0.6.31.tgz'
+Content type 'application/x-gzip' length 297729 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/ape_5.7-1.tgz'
+Content type 'application/x-gzip' length 3479252 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+
+The downloaded binary packages are in
+	/var/folders/s7/rj_v6wxd0kv70bvnq8h8dcmm0000gn/T//Rtmpbt7uN9/downloaded_packages
+> install.packages("phangorn")
+also installing the dependencies ‘magrittr’, ‘pkgconfig’, ‘rlang’, ‘fastmatch’, ‘generics’, ‘igraph’, ‘quadprog’
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/magrittr_2.0.3.tgz'
+Content type 'application/x-gzip' length 227506 bytes (222 KB)
+==================================================
+downloaded 222 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/pkgconfig_2.0.3.tgz'
+Content type 'application/x-gzip' length 17870 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/rlang_1.1.0.tgz'
+Content type 'application/x-gzip' length 1851469 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/fastmatch_1.1-3.tgz'
+Content type 'application/x-gzip' length 49267 bytes (48 KB)
+==================================================
+downloaded 48 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/generics_0.1.3.tgz'
+Content type 'application/x-gzip' length 77771 bytes (75 KB)
+==================================================
+downloaded 75 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/igraph_1.4.1.tgz'
+Content type 'application/x-gzip' length 8103431 bytes (7.7 MB)
+==================================================
+downloaded 7.7 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/quadprog_1.5-8.tgz'
+Content type 'application/x-gzip' length 38646 bytes (37 KB)
+==================================================
+downloaded 37 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/phangorn_2.11.1.tgz'
+Content type 'application/x-gzip' length 3473346 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+
+The downloaded binary packages are in
+	/var/folders/s7/rj_v6wxd0kv70bvnq8h8dcmm0000gn/T//Rtmpbt7uN9/downloaded_packages
+> install.packages("phytools")
+also installing the dependencies ‘iterators’, ‘maps’, ‘clusterGeneration’, ‘coda’, ‘combinat’, ‘doParallel’, ‘expm’, ‘foreach’, ‘mnormt’, ‘numDeriv’, ‘optimParallel’, ‘plotrix’, ‘scatterplot3d’
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/iterators_1.0.14.tgz'
+Content type 'application/x-gzip' length 345398 bytes (337 KB)
+==================================================
+downloaded 337 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/maps_3.4.1.tgz'
+Content type 'application/x-gzip' length 3105705 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/clusterGeneration_1.3.7.tgz'
+Content type 'application/x-gzip' length 265794 bytes (259 KB)
+==================================================
+downloaded 259 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/coda_0.19-4.tgz'
+Content type 'application/x-gzip' length 321854 bytes (314 KB)
+==================================================
+downloaded 314 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/combinat_0.0-8.tgz'
+Content type 'application/x-gzip' length 40732 bytes (39 KB)
+==================================================
+downloaded 39 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/doParallel_1.0.17.tgz'
+Content type 'application/x-gzip' length 188349 bytes (183 KB)
+==================================================
+downloaded 183 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/expm_0.999-7.tgz'
+Content type 'application/x-gzip' length 238450 bytes (232 KB)
+==================================================
+downloaded 232 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/foreach_1.5.2.tgz'
+Content type 'application/x-gzip' length 136295 bytes (133 KB)
+==================================================
+downloaded 133 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/mnormt_2.1.1.tgz'
+Content type 'application/x-gzip' length 211871 bytes (206 KB)
+==================================================
+downloaded 206 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/numDeriv_2016.8-1.1.tgz'
+Content type 'application/x-gzip' length 113250 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/optimParallel_1.0-2.tgz'
+Content type 'application/x-gzip' length 199210 bytes (194 KB)
+==================================================
+downloaded 194 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/plotrix_3.8-2.tgz'
+Content type 'application/x-gzip' length 1137125 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/scatterplot3d_0.3-43.tgz'
+Content type 'application/x-gzip' length 356818 bytes (348 KB)
+==================================================
+downloaded 348 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/phytools_1.5-1.tgz'
+Content type 'application/x-gzip' length 2307684 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+
+The downloaded binary packages are in
+	/var/folders/s7/rj_v6wxd0kv70bvnq8h8dcmm0000gn/T//Rtmpbt7uN9/downloaded_packages
+> install.packages("geiger")
+also installing the dependencies ‘mvtnorm’, ‘subplex’, ‘deSolve’, ‘ncbit’, ‘colorspace’
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/mvtnorm_1.1-3.tgz'
+Content type 'application/x-gzip' length 260575 bytes (254 KB)
+==================================================
+downloaded 254 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/subplex_1.8.tgz'
+Content type 'application/x-gzip' length 54941 bytes (53 KB)
+==================================================
+downloaded 53 KB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/deSolve_1.35.tgz'
+Content type 'application/x-gzip' length 2624184 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/ncbit_2013.03.29.1.tgz'
+Content type 'application/x-gzip' length 9899593 bytes (9.4 MB)
+==================================================
+downloaded 9.4 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/colorspace_2.1-0.tgz'
+Content type 'application/x-gzip' length 2621598 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://mirror.las.iastate.edu/CRAN/bin/macosx/contrib/4.2/geiger_2.0.10.tgz'
+Content type 'application/x-gzip' length 1498333 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+
+The downloaded binary packages are in
+	/var/folders/s7/rj_v6wxd0kv70bvnq8h8dcmm0000gn/T//Rtmpbt7uN9/downloaded_packages
+> library(ape);
+> library(phangorn);
+> library(phytools);
+Loading required package: maps
+> library(geiger)
+
+Attaching package: ‘geiger’
+
+The following object is masked from ‘package:phytools’:
+
+    rescale
+
+> text.string <- "((((((()cow,pig),whale),(bat,(lemur,human)))",(robin,iguana)),coelacanth),gold_fish),shark);''
+Error: unexpected ',' in "text.string <- "((((((()cow,pig),whale),(bat,(lemur,human)))","
+> text.string <- "((((((()cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);'"
+> vert.tree<-read.tree(text=text.string)
+Error in single_quotes(tree) : 
+  wrong number of single quotes around labels
+> text.string <- "((((((()cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);"
+> vert.tree<-read.tree(text=text.string)
+Error in FUN(X[[i]], ...) : 
+  numbers of left and right parentheses in Newick string not equal
+> text.string <- "(((((((cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);"
+> vert.tree<-read.tree(text=text.string)
+> vert.tree
+
+Phylogenetic tree with 11 tips and 10 internal nodes.
+
+Tip labels:
+  cow, pig, whale, bat, lemur, human, ...
+
+Rooted; no branch lengths.
+> plot(vert.tree,no.margin=TRUE,edge.width=2,main="This is phylogenetic plot")
+> 
