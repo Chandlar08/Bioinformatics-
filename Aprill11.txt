@@ -1,0 +1,90 @@
+
+R version 4.2.2 (2022-10-31) -- "Innocent and Trusting"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin17.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[R.app GUI 1.79 (8160) x86_64-apple-darwin17.0]
+
+[Workspace restored from /Users/chandlar/.RData]
+[History restored from /Users/chandlar/.Rapp.history]
+
+> library(ape);
+> 
+> library(phangorn);
+> 
+> library(phytools);
+Loading required package: maps
+> 
+> library(geiger)
+
+Attaching package: ‘geiger’
+
+The following object is masked from ‘package:phytools’:
+
+    rescale
+
+> 
+> text.string <- "(((((((cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);"
+> plot(vert.tree,no.margin=TRUE,edge.width=2,main="This is phylogenetic plot")
+> library(ape);
+> library(phangorn);
+> library(phytools);
+> library(geiger)
+> 
+> text.string <- "(((((((cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);"
+> 
+> plot(unroot(vert.tree),type=”unrooted”,no.margin=TRUE,lab4ut=”axial”,edge.width=2
+Error: unexpected input in "plot(unroot(vert.tree),type=”"
+> 
+>  plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut=”axial”,edge.width=2
+Error: unexpected input in " plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut=”"
+> plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut=”axial”,edge.width=2)
+Error: unexpected input in "plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut=”"
+> plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut="axial",edge.width=2)
+> 
+> > library(ape);
+Error: unexpected '>' in ">"
+> > library(phangorn);
+Error: unexpected '>' in ">"
+> > library(phytools);
+Error: unexpected '>' in ">"
+> > library(geiger)
+Error: unexpected '>' in ">"
+> library(ape);
+> library(phangorn);
+>  library(phytools);
+> > library(geiger)
+Error: unexpected '>' in ">"
+> library(ape);
+> library(phangorn);
+> library(phytools);
+> library(geiger)
+> 
+> text.string <- "(((((((cow,pig),whale),(bat,(lemur,human))),(robin,iguana)),coelacanth),gold_fish),shark);"
+> plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut="axial",edge.width=2)
+> str(vert.tree)
+List of 3
+ $ edge     : int [1:20, 1:2] 12 13 14 15 16 17 18 18 17 16 ...
+ $ Nnode    : int 10
+ $ tip.label: chr [1:11] "cow" "pig" "whale" "bat" ...
+ - attr(*, "class")= chr "phylo"
+ - attr(*, "order")= chr "cladewise"
+> write.tree(vert.tree,file=example.txt)
+Error in write.tree(vert.tree, file = example.txt) : 
+  object 'example.txt' not found
+> write.tree(vert.tree,file="example.txt")
+> 
